@@ -22,7 +22,7 @@ label = CTkLabel(master=frame, text="Menu",font=(my_font,70,'bold'), text_color=
 #label.grid(row=0, column=0, padx=10, pady=10)
 #label.place(relx=0.5,rely=0.05, anchor=CENTER)
 
-
+label = CTkLabel(master=frame, text="hello did this work", font=(my_font))
 
 #textbox
 
