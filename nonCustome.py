@@ -12,6 +12,7 @@ class ShareFile:
         self.server = None
         self.hostname = socket.gethostname()
         self.IPAddr = socket.gethostbyname(self.hostname)
+        print(self.IPAddr)
 
     def getDirectory(self):
         path = askdirectory(title='Select Folder (if no folder selected use current directory): ') # shows dialog box and return the path
