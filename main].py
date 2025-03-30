@@ -27,6 +27,6 @@ label.place(relx=0.5,rely=0.4, anchor=CENTER)
 label = CTkLabel(master=frame, text="hello did this work", font=(my_font))
 
 #buttons
-button = CTkButton(master=app,command=lambda : start('192.168.1.111', 8000), text="Launch Server")
+button = CTkButton(master=app,command=lambda : startWithIndex('192.168.1.113', 8000), text="Launch Server")
 button.place(relx=0.5,rely=0.5,anchor=CENTER)
 app.mainloop()
