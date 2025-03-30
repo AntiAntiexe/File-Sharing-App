@@ -29,6 +29,8 @@ class ShareFile:
         print("Port number is: ", self.port)
 
     def start(self):
+
+        print("Simple HTTP File Server select a directory to ")
         self.getDirectory()
         self.getPort()
 
